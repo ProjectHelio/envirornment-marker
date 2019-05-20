@@ -1,0 +1,50 @@
+/**
+ * HTML Reset.
+ */
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  margin: 0;
+}
+
+/**
+ * Page structure.
+ */
+#page {
+  align-items: center;
+  background-color: rgb(248, 249, 250);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+
+  #card {
+    background-color: #ffffff;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.15);
+    min-height: 500px;
+    min-width: 1000px;
+    padding: 20px;
+    width: 100vh;
+
+    #card-header {
+
+      hr {
+        border-top: .7px solid #9e9d9d;
+        margin: 14px 0 0 0;
+      }
+
+    }
+
+  }
+
+  h1 {
+    font-family: 'Noto Sans', serif;
+    margin: 0;
+    text-align: center;
+  }
+
+}

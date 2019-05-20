@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "Environment Marker",
+    "description": "Extension name."
+  },
+  "optionsPage_title": {
+    "message": "Environment Marker Options",
+    "description": "The options page title."
+  }
+}

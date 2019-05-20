@@ -1,0 +1,12 @@
+# IDE
+.idea/
+
+# NPM
+node_modules/
+package-lock.json
+
+# Compiled CSS
+app/css/
+
+# Mix files
+mix-manifest.json

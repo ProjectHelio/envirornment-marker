@@ -1,0 +1,37 @@
+{
+  "name": "environment-marker",
+  "version": "0.0.1",
+  "description": "An extension to mark which environment you're working on.",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ProjectHelio/envirornment-marker.git"
+  },
+  "keywords": [
+    "browser",
+    "extension",
+    "environment"
+  ],
+  "author": "Emanuele Coppola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ProjectHelio/envirornment-marker/issues"
+  },
+  "homepage": "https://github.com/ProjectHelio/envirornment-marker#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "laravel-mix": "^4.0.15",
+    "resolve-url-loader": "^2.3.1",
+    "sass": "^1.20.1",
+    "sass-loader": "^7.1.0"
+  }
+}
