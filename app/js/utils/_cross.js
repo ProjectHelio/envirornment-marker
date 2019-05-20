@@ -1,5 +1,5 @@
 
 // Cross browser API
-window.browser = (function () {
+window.browser = (() => {
     return window.msBrowser || window.browser || window.chrome;
 })();
